@@ -1,0 +1,44 @@
+.education {
+    display: flex;
+    flex-direction: column;
+}
+
+.education .courses ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.courses h3 {
+    text-align: center;
+}
+
+.education .courses ul img {
+    max-width: 50px;
+    margin: .5rem;
+    justify-content: start;
+}
+
+.education .institutions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.education .institutions ul {
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.education .institutions ul li {
+    margin-left: 2rem;
+    padding: .5rem;
+}
